@@ -198,7 +198,8 @@ color: #404BBF;
 }
 
 .feature-list-item {
-  flex-basis: calc((100% - 3 * 24px) / 4); 
+  display: flex;
+  flex-basis: calc((100% - 3 * 24px) / 4 );
 }
 
 .feature-list-title {
@@ -244,8 +245,8 @@ color: #404BBF;
   padding: 32px 0; 
 }
 
-.team-list-item {
-  width: calc((100% - 72px) / 4); 
+.team-list-item { 
+  flex-basis: calc((100% - 72px) / 4 );
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
@@ -292,8 +293,7 @@ color: #404BBF;
 }
 
 .portfolio-menu-item {
-  width: calc((100% - 48px) / 3); 
-  display: flex;
+  width: calc((100% - 48px) / 3 ); 
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;  
