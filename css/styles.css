@@ -42,7 +42,7 @@ img {
 }
 
 .header { 
-  border-bottom: 1px solid #e7e9fc;   
+  border-bottom: 1px solid #e7e9fc;  
 }
 
 .header-container {
@@ -71,7 +71,7 @@ display: flex;
 }
 
 .logo-dark {
- color:#2E2F42 ;
+  color:#2E2F42 ;
 }
 
 .header-menu-list {
@@ -84,7 +84,7 @@ display: flex;
 }
 
 .header-menu-link {
-  display: block;
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -164,7 +164,7 @@ color: #404BBF;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color:#FFFFFF;
-   background: #4D5AE5;
+  background: #4D5AE5;
 }
 
 .hero-btn:hover {
@@ -194,9 +194,9 @@ color: #404BBF;
 }
 
 .feature-list {
-display: flex;
-padding: 0 15px;
-gap: 24px;
+  display: flex;
+  padding: 0 15px;
+  gap: 24px;
 }
 
 .feature-list-item {
@@ -205,7 +205,7 @@ gap: 24px;
 
 .feature-list-title {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 8;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -214,7 +214,6 @@ gap: 24px;
 }
 
 .feature-list-subtitle {
-  margin-top: 8px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -223,7 +222,7 @@ gap: 24px;
 
 .team {
   background: #f4f4fd;
-  padding: 120px;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -243,32 +242,34 @@ gap: 24px;
   justify-content: center;
   gap: 24px;
 }
+.team-card {
+  padding: 32px 0; 
+}
 
 .team-list-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4); 
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-title-item {
-  padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
-  
-
 }
 
 .team-list-subtitle {
+    padding-bottom: 32px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
-    padding-bottom: 32px;
+    
 }
 
 .portfolio {
